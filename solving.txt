@@ -1,0 +1,18 @@
+Q.1
+
+Solv 
+
+Using tables for HTML layout is not recommended because it goes against the principles of separation of content and presentation. Tables are intended for tabular data, such as displaying rows and columns of information, not for structuring the layout of a webpage.
+
+Here are a few reasons why using tables for layout is discouraged:
+
+1. Semantics: Tables are meant for organizing data, not for representing the structure of a webpage. By using tables for layout, you are misusing the intended purpose of HTML elements, which can lead to confusion for both developers and assistive technologies.
+
+2. Accessibility: Screen readers and other assistive technologies rely on the proper semantic structure of HTML to convey information to visually impaired users. When tables are used for layout, it becomes difficult for these technologies to interpret the content correctly, affecting accessibility.
+
+3. Responsiveness: Tables are not designed to be responsive by default. When viewing a table-based layout on different screen sizes or devices, the content may not adapt well, leading to a poor user experience. Modern CSS layout techniques like flexbox or grid provide more flexible and responsive options.
+
+4. Maintenance: Using tables for layout can result in messy and convoluted code. It becomes harder to make changes or update the layout in the future, increasing development time and reducing code maintainability.
+
+Q.2
+solv see Solv.html
