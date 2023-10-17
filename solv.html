@@ -1,83 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>HTML Layout using Semantic Elements</title>
 </head>
 <body>
-    <form action="/submit-form" method="POST">
-        <div>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-      
-        <div>
-          <fieldset>
-            <legend>Gender:</legend>
-            <label for="male">
-              <input type="radio" id="male" name="gender" value="male"> Male
-            </label>
-            <label for="female">
-              <input type="radio" id="female" name="gender" value="female"> Female
-            </label>
-          </fieldset>
-        </div>
-      
-        <div>
-          <fieldset>
-            <legend>Hobbies:</legend>
-            <label for="hobby1">
-              <input type="checkbox" id="hobby1" name="hobbies" value="reading"> Reading
-            </label>
-            <label for="hobby2">
-              <input type="checkbox" id="hobby2" name="hobbies" value="gardening"> Gardening
-            </label>
-          </fieldset>
-        </div>
-        
-        <div>
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-        </div>
-      
-        <div>
-          <input type="reset" value="Reset">
-        </div>
-      
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-      
-        <div>
-          <label for="age">Age:</label>
-          <input type="number" id="age" name="age" min="1" max="100">
-        </div>
-      
-        <div>
-          <label for="rating">Rating:</label>
-          <input type="range" id="rating" name="rating" min="1" max="10">
-        </div>
-      
-        <div>
-          <label for="event-time">Event Time:</label>
-          <input type="time" id="event-time" name="event-time">
-        </div>
-      
-        <div>
-          <label for="event-week">Event Week:</label>
-          <input type="week" id="event-week" name="event-week">
-        </div>
-      
-        <div>
-          <label for="file-upload">File Upload:</label>
-          <input type="file" id="file-upload" name="file-upload">
-        </div>
-      
-        <div>
-          <input type="submit" value="Submit">
-        </div>
-      </form>  
+<header style="background-color:#b5dcb3;">
+<h1>Front-End Development Course</h1>
+</header>
+
+<nav style="background-color:#aaa; width: 50px;">
+<h2>Main Menu</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+</nav>
+
+<main style="background-color:#eee; height: 200px;">
+<p>In this lab, students will study Front-End Development course</p>
+</main>
+
+<figure>
+<img src="1.jfif" alt="pic" style="width:50%">
+</figure>
+
+<footer style="background-color:#b5dcb3;">
+<p>&copy; 2023 Web Programming LAB</p>
+</footer>
+
 </body>
 </html>
